@@ -1,73 +1,70 @@
-# ASISTEMAS_A2025
-AUDITORIA DE SISTEMAS 2025
-INSTRUCCIONES DE ENTREGA – ASISTEMAS A2025
+🔗 Enlace base del repositorio
+👉 https://github.com/fabiansmsecu/ASISTEMAS_A2025
 
-Estimado estudiante:
+🔹 PASO 2 – ¿Dónde hacer el Fork?
+Ingresa al enlace anterior.
 
-Siga cuidadosamente los siguientes pasos para entregar su actividad del curso ASISTEMAS A2025. Esta guía ha sido diseñada para personas que no tienen experiencia previa con GitHub. 
+En la parte superior derecha de la pantalla (cerca de tu foto de perfil), verás un botón que dice “Fork” (o "Bifurcar" si tienes GitHub en español).
 
-PASO 1: Crear una cuenta en GitHub (si no tiene una)
+Haz clic allí.
 
-1. Ingrese a https://github.com y haga clic en “Sign up”.
-2. Complete sus datos y confirme su correo electrónico.
+Se abrirá una ventana preguntando dónde quieres hacer el fork → selecciona tu cuenta.
 
-PASO 2: Fork del repositorio base del curso
+GitHub creará una copia del repositorio en tu propia cuenta. El enlace cambiará a algo como:
 
-1. Ingrese al siguiente enlace: https://github.com/fabiansmsecu/ASISTEMAS_A2025
-2. En la parte superior derecha, haga clic en el botón “Fork”.
-3. Se creará una copia del repositorio en su cuenta personal.
+arduino
+Copiar
+Editar
+https://github.com/tuUsuario/ASISTEMAS_A2025
+🔹 PASO 3 – ¿Dónde encontrar el botón "Code" para clonar?
+Ve a tu fork, es decir, el repositorio que ahora está en tu cuenta.
 
-PASO 3: Clonar su fork en su computadora
+Verás un botón verde que dice "Code" justo encima de los archivos.
 
-1. Ingrese a su cuenta de GitHub y abra su copia del repositorio ASISTEMAS_A2025.
-2. Haga clic en el botón verde “Code” y copie el enlace que aparece (HTTPS).
-3. Abra su terminal (Git Bash, PowerShell o Terminal según su sistema) y escriba:
+Haz clic en "Code" → copia el enlace que aparece en la pestaña HTTPS (es algo como https://github.com/tuUsuario/ASISTEMAS_A2025.git).
 
+Abre Git Bash o Terminal y usa ese enlace como en las instrucciones:
 
-git clone https://github.com/SuUsuario/ASISTEMAS_A2025.git
+bash
+Copiar
+Editar
+git clone https://github.com/tuUsuario/ASISTEMAS_A2025.git
 cd ASISTEMAS_A2025
+🔹 PASO 4 – Crear una rama
+Una vez estés dentro de la carpeta clonada en tu PC, en la terminal:
 
-Reemplace 'SuUsuario' por su nombre de usuario real de GitHub.
-PASO 4: Crear una rama para su actividad
+bash
+Copiar
+Editar
+git checkout -b actividad1-TuApellidoTuNombre
+🔹 PASO 6 – ¿Dónde veo si el Push funcionó?
+Después de hacer:
 
-1. Una vez dentro de la carpeta del proyecto, cree una nueva rama con su apellido y nombre:
+bash
+Copiar
+Editar
+git push origin actividad1-TuApellidoTuNombre
+Ve otra vez a tu repositorio en GitHub.
 
+Verás una barra amarilla que dice algo como:
 
-git checkout -b actividad1-ApellidoNombre
+vbnet
+Copiar
+Editar
+Compare & pull request
+Haz clic allí.
 
-PASO 5: Escribir y guardar su solución
+🔹 PASO 7 – ¿Dónde se crea el Pull Request (PR)?
+En esa pantalla de “Compare & pull request”, asegúrate de lo siguiente:
 
-1. Edite los archivos requeridos con su solución.
-2. Asegúrese de guardar correctamente todos los cambios.
+Base repository: fabiansmsecu/ASISTEMAS_A2025
 
-PASO 6: Subir su trabajo a GitHub
+Head repository: tuUsuario/ASISTEMAS_A2025
 
-1. Guarde y prepare sus cambios para subir:
+Escribe como título:
+Actividad 1 – Apellido Nombre
 
+Haz clic en el botón verde que dice “Create pull request”.
 
-git add .
-git commit -m "Actividad 1 – Apellido Nombre"
-git push origin actividad1-ApellidoNombre
-
-PASO 7: Crear un Pull Request (PR)
-
-1. Ingrese a su repositorio en GitHub.
-2. Aparecerá un mensaje que dice “Compare & pull request”. Haga clic ahí.
-3. Verifique lo siguiente:
-   - Base repository: fabiansmsecu/ASISTEMAS_A2025
-   - Head repository: SuUsuario/ASISTEMAS_A2025
-   - Título: Actividad 1 – Apellido Nombre
-4. Haga clic en “Create pull request”.
-
-¿CÓMO VERÁ SU PROFESOR SU ENTREGA?
-
-El profesor verá su Pull Request en: https://github.com/fabiansmsecu/ASISTEMAS_A2025/pulls
-Desde allí podrá revisar, ejecutar y calificar su código.
-
-RECOMENDACIONES FINALES
-
-- No cierre su Pull Request.
-- No edite ramas que no sean suyas.
-- Asegúrese de que el código funcione antes de entregarlo.
-- Si tiene dudas, consulte al profesor.
-
+✅ ¡Con eso tu profesor verá tu entrega automáticamente en el siguiente enlace!
+📌 https://github.com/fabiansmsecu/ASISTEMAS_A2025/pulls
